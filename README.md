@@ -12,14 +12,14 @@ To train the MLP and VAE models, run
 python train.py --TODO TRAIN --mod <mode_name> --loss <function_name> 
 ```
 
-The complete description of all the arguments and their default values can be found in [`main/wrapper.py`](main/wrapper.py). 
+The complete description of all the arguments and their default values can be found in [`main/wrapper.py`](main/wrapper.py), see also [`variables_definitions.pdf`](variables_definitions.pdf). 
 
 To train flow models, run
 ```
 python train_flow.py --TODO TRAIN --mod <mode_name> --loss <function_name> 
 ```
 
-The complete description of all the arguments and their default values can be found in [`main/wrapper.py`](main/wrapper.py). 
+The complete description of all the arguments and their default values can be found in [`main/wrapper.py`](main/wrapper.py), see also [`variables_definitions.pdf`](variables_definitions.pdf). 
 
 ## Recommend
 
