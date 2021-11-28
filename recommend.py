@@ -9,13 +9,13 @@ import main.z_data as z_data_lib
 """
 METADATA TYPE
 =============
-This script is for songs that its metadata is a list of items (p.e. tags). 
+This script is for songs that their metadata is a list of items (p.e. tags). 
 
 
 RECOMMENDATION TYPES
 =====================
 * standard = regular recommendation, without tunning
-* postfiltering = gives more probability (from uniform probability) to the selected tags with alpha factor
+* postfiltering = increases probability (from uniform probability) of the selected tags with alpha factor
 * tunning = moves user vector in the latent space with linear combination using alpha as factor
 
 """
